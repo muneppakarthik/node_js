@@ -2,9 +2,9 @@
   "name": "practice_express",
   "version": "1.0.0",
   "description": "Practicing express js",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
