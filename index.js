@@ -83,8 +83,7 @@ const database = ()=>{
     }
 }
 database();
-const port = process.env.PORT;
-app.listen(port,(err)=>{
+app.listen(8000,(err)=>{
     if(err) throw err;
-    console.log(`Server is running on ${port}`)
+    console.log(`Server is running on 8000`)
 })
